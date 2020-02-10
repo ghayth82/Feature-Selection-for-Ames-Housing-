@@ -1,5 +1,7 @@
 # Feature-Selection-for-Ames-Housing-
 
 In many (business) cases it is equally important to not only have an accurate, but also an interpretable model. Oftentimes, apart from wanting to know what our model’s house price prediction is, we also wonder why it is this high/low and which features are most important in determining the forecast. Another example might be predicting customer churn — it is very nice to have a model that is successfully predicting which customers are prone to churn, but identifying which variables are important can help us in early detection and maybe even improving the product/service!
+
 Knowing feature importance indicated by machine learning models can benefit you in multiple ways, for example: by getting a better understanding of the model’s logic you can not only verify it being correct but also work on improving the model by focusing only on the important variables the above can be used for variable selection — you can remove x variables that are not that significant and have similar or better performance in much shorter training time in some business cases it makes sense to sacrifice some accuracy for the sake of interpretability. For example, when a bank rejects a loan application, it must also have a reasoning behind the decision, which can also be presented to the customer
+
 In this project, I will examine what characteristics help to boost the value of a house with feature selection tools. I use only 9 features out of 222 features to to achieve less than 7% of increase in RMSE and 3% reduce in R square.
